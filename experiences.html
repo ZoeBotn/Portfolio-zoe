@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expériences — Zoé Bouton</title>
+  <meta name="description" content="Parcours de Zoé Bouton : Rakuten, HomeExchange, Center Parcs">
+  <meta property="og:title" content="Zoé Bouton — Expériences">
+  <meta property="og:description" content="Parcours de Zoé Bouton : Rakuten, HomeExchange, Center Parcs">
+  <meta property="og:image" content="https://i.imgur.com/KPg9WNb.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://i.imgur.com/KPg9WNb.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" role="navigation" aria-label="Navigation principale">
+    <a href="index.html" class="navbar-logo" aria-label="Zoé Bouton — Accueil">ZB</a>
+    <ul class="navbar-links">
+      <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+      <li><a href="experiences.html" data-i18n="nav_exp">Expériences</a></li>
+      <li><a href="competences.html" data-i18n="nav_skills">Compétences</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="cv-zoe-bouton-fr.pdf" download="cv-zoe-bouton-fr.pdf" class="btn-secondary" data-i18n="nav_cv" data-cv>CV ↓</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch to English">🇬🇧 EN</button>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu" role="menu">
+    <a href="index.html" data-i18n="nav_home" role="menuitem">Accueil</a>
+    <a href="experiences.html" data-i18n="nav_exp" role="menuitem">Expériences</a>
+    <a href="competences.html" data-i18n="nav_skills" role="menuitem">Compétences</a>
+    <a href="contact.html" data-i18n="nav_contact" role="menuitem">Contact</a>
+    <a href="cv-zoe-bouton-fr.pdf" download="cv-zoe-bouton-fr.pdf" data-i18n="nav_cv" role="menuitem" data-cv>CV ↓</a>
+  </div>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <section style="background: var(--bg-peach); padding: 4rem 2rem 3rem; text-align: center;">
+    <h1 class="section-title fade-in-up" data-i18n="section_exp">Expériences</h1>
+  </section>
+
+  <!-- ========== TIMELINE ========== -->
+  <section class="timeline-section" aria-labelledby="timeline-heading">
+    <h2 id="timeline-heading" class="sr-only" data-i18n="section_exp">Expériences</h2>
+    <div class="timeline">
+
+      <!-- Rakuten -->
+      <article class="timeline-card fade-in-up" aria-label="Expérience Rakuten France">
+        <img
+          src="https://i.imgur.com/wvzHjFe.jpeg"
+          alt="Rakuten France — bureau parisien"
+          class="timeline-card-img"
+          style="object-position: center 30%;"
+          loading="lazy"
+          onerror="this.style.background='#F5C4B0';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+        >
+        <div class="timeline-card-body">
+          <div class="timeline-period" data-i18n="exp1_period">Sep 2025 – Sep 2026 · Paris · Alternance</div>
+          <div class="timeline-role" data-i18n="exp1_role">CRM PROJECT LEADER</div>
+          <div class="timeline-company" data-i18n="exp1_company">Rakuten France</div>
+          <ul class="timeline-bullets" data-i18n-html="exp1_bullets">
+            <li>Pilotage du projet de migration CRM Salesforce → Batch, continuité processus &amp; automatisations</li>
+            <li>Conception, paramétrage et gestion de 70+ campagnes automatisées sur l'ensemble du cycle de vie client</li>
+            <li>Optimisation du ciblage, de la personnalisation et de la délivrabilité des campagnes</li>
+            <li>Refonte de la charte graphique email : nouveaux templates, tests et validation</li>
+            <li>Coordination des équipes CRM, marketing et technique en mode projet</li>
+            <li>Analyse des KPIs d'engagement et mise en place des plans d'optimisation continue</li>
+          </ul>
+          <div class="tags-row">
+            <span class="tag">Batch</span>
+            <span class="tag">Salesforce</span>
+            <span class="tag">CRM</span>
+            <span class="tag">Marketing Automation</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Project Management</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- HomeExchange Project Leader -->
+      <article class="timeline-card fade-in-up" aria-label="Expérience HomeExchange Project Leader">
+        <img
+          src="https://i.imgur.com/NGTAZxG.jpeg"
+          alt="HomeExchange — équipe Service Membres"
+          class="timeline-card-img"
+          style="object-position: center 25%;"
+          loading="lazy"
+          onerror="this.style.background='#B8E5D8';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+        >
+        <div class="timeline-card-body">
+          <div class="timeline-period" data-i18n="exp2_period">Juin – Déc 2023 · Paris · Stage</div>
+          <div class="timeline-role" data-i18n="exp2_role">PROJECT LEADER</div>
+          <div class="timeline-company" data-i18n="exp2_company">HomeExchange</div>
+          <ul class="timeline-bullets" data-i18n-html="exp2_bullets">
+            <li>Gestion des projets de l'équipe Service Membres aux côtés du Project Manager</li>
+            <li>Recherche et déploiement de nouveaux outils pour améliorer l'efficacité de l'équipe</li>
+            <li>Suivi et analyse des projets d'autonomisation des membres</li>
+            <li>Production des reportings de performance et communication interne</li>
+          </ul>
+          <div class="tags-row">
+            <span class="tag">Project Management</span>
+            <span class="tag">Customer Experience</span>
+            <span class="tag">Process Optimization</span>
+            <span class="tag">Reporting</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- HomeExchange CRC -->
+      <article class="timeline-card fade-in-up" aria-label="Expérience HomeExchange Chargée de relation client">
+        <img
+          src="https://i.imgur.com/NGTAZxG.jpeg"
+          alt="HomeExchange — relation client membres"
+          class="timeline-card-img"
+          style="object-position: center 25%;"
+          loading="lazy"
+          onerror="this.style.background='#FAFAF8';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+        >
+        <div class="timeline-card-body">
+          <div class="timeline-period" data-i18n="exp3_period">Juin – Sep 2022 · Paris · Stage</div>
+          <div class="timeline-role" data-i18n="exp3_role">CHARGÉE DE RELATION CLIENT</div>
+          <div class="timeline-company" data-i18n="exp3_company">HomeExchange</div>
+          <ul class="timeline-bullets" data-i18n-html="exp3_bullets">
+            <li>Traitement des demandes membres par email (clarté, réactivité, satisfaction)</li>
+            <li>Accompagnement des membres dans la prise en main de la plateforme</li>
+            <li>Organisation d'échanges de logements avec suivi personnalisé</li>
+            <li>Gestion des réclamations et situations sensibles</li>
+          </ul>
+          <div class="tags-row">
+            <span class="tag">Customer Relations</span>
+            <span class="tag">Zendesk</span>
+            <span class="tag">CRM</span>
+            <span class="tag">Communication</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- BNSSA -->
+      <article class="timeline-card fade-in-up" aria-label="Expérience BNSSA Center Parcs">
+        <img
+          src="https://i.imgur.com/PjcnvEd.png"
+          alt="Center Parcs Les Bois Francs — espace aquatique"
+          class="timeline-card-img"
+          loading="lazy"
+          onerror="this.style.background='#F5C4B0';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+        >
+        <div class="timeline-card-body">
+          <div class="timeline-period" data-i18n="exp4_period">2022 – 2025 · CDD saisonniers</div>
+          <div class="timeline-role" data-i18n="exp4_role">BNSSA — SECOURISTE AQUATIQUE</div>
+          <div class="timeline-company" data-i18n="exp4_company">Center Parcs Les Bois Francs</div>
+          <ul class="timeline-bullets" data-i18n-html="exp4_bullets">
+            <li>Surveillance et sécurité des bassins et espaces aquatiques à forte fréquentation</li>
+            <li>Réalisation des soins de premiers secours et gestion des situations d'urgence</li>
+            <li>Contrôles quotidiens de conformité (toboggans, surfaces, bassins, signalétique)</li>
+            <li>Accueil et accompagnement des clients avec bienveillance et pédagogie</li>
+          </ul>
+          <div class="tags-row">
+            <span class="tag">BNSSA</span>
+            <span class="tag">Premiers secours</span>
+            <span class="tag">Sécurité</span>
+            <span class="tag">Travail d'équipe</span>
+            <span class="tag">Relation client</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========== FORMATION ========== -->
+  <section class="edu-section" aria-labelledby="edu-heading">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 id="edu-heading" class="section-title" data-i18n="section_edu">Formation</h2>
+      </div>
+      <div class="edu-grid">
+
+        <div class="edu-card fade-in-up">
+          <img
+            src="https://i.imgur.com/B6Uw2CD.jpeg"
+            alt="ESCE International Business School — Paris"
+            class="edu-img"
+            loading="lazy"
+            onerror="this.style.background='#F9D0DC';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+          >
+          <div class="edu-info">
+            <h3 data-i18n="edu1_school">ESCE International Business School</h3>
+            <div class="edu-dates" data-i18n="edu1_period">2021–2026 · Paris 🇫🇷</div>
+            <div class="edu-program" data-i18n="edu1_program">Master Grande École · Marketing Digital International & Grande Consommation</div>
+          </div>
+        </div>
+
+        <div class="edu-card fade-in-up">
+          <img
+            src="https://i.imgur.com/r3zsvJZ.jpeg"
+            alt="Asia Pacific University — Kuala Lumpur, Malaisie"
+            class="edu-img"
+            loading="lazy"
+            onerror="this.style.background='#F9D0DC';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+          >
+          <div class="edu-info">
+            <h3 data-i18n="edu2_school">Asia Pacific University (APU)</h3>
+            <div class="edu-dates" data-i18n="edu2_period">Fev – Jul 2025 · Kuala Lumpur 🇲🇾</div>
+            <div class="edu-program" data-i18n="edu2_program">Programme d'échange international</div>
+          </div>
+        </div>
+
+        <div class="edu-card fade-in-up">
+          <img
+            src="https://i.imgur.com/kEXhdu3.jpeg"
+            alt="BI Norwegian Business School — Oslo, Norvège"
+            class="edu-img"
+            loading="lazy"
+            onerror="this.style.background='#F9D0DC';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+          >
+          <div class="edu-info">
+            <h3 data-i18n="edu3_school">BI Norwegian Business School</h3>
+            <div class="edu-dates" data-i18n="edu3_period">Jan – Jun 2023 · Oslo 🇳🇴</div>
+            <div class="edu-program" data-i18n="edu3_program">Programme d'échange international</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ASSOCIATION ========== -->
+  <section style="background: var(--bg-yellow); padding: 5rem 2rem;" aria-labelledby="assoc-heading">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 id="assoc-heading" class="section-title">Association</h2>
+      </div>
+      <div class="assoc-card fade-in-up">
+        <h3 data-i18n="assoc_title">Association Furious</h3>
+        <div class="assoc-role" data-i18n="assoc_role">Responsable Événementiel & Co-fondatrice</div>
+        <ul class="assoc-bullets" data-i18n-html="assoc_bullets">
+          <li>Co-fondation de l'association</li>
+          <li>Direction du pôle événements</li>
+          <li>Recrutement et intégration des membres</li>
+          <li>Sports extrêmes · Activités insolites · Gestion bénévole</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section style="background: #fff; padding: 3rem 2rem;">
+    <div class="cta-center fade-in-up">
+      <a href="competences.html" class="btn-secondary" data-i18n="cta_skills">Voir mes compétences →</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer role="contentinfo">
+    <div class="avatar-wrap">
+      <img
+        src="https://i.imgur.com/KPg9WNb.png"
+        alt="Zoé Bouton — side profile, small"
+        class="avatar-circle avatar-sm"
+
+        loading="lazy"
+        onerror="this.style.background='#F5C4B0';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+      >
+    </div>
+    <p class="footer-name" data-i18n="footer_name">Zoé Bouton · Paris · 2026</p>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/zoe-bouton/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Zoé Bouton">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        LinkedIn
+      </a>
+      <a href="mailto:zoe.bouton@gmail.com" aria-label="Envoyer un email à Zoé Bouton">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+        Email
+      </a>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

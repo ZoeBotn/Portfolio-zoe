@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compétences — Zoé Bouton</title>
+  <meta name="description" content="Compétences CRM & marketing — Salesforce, Batch, Contentsquare">
+  <meta property="og:title" content="Zoé Bouton — Compétences">
+  <meta property="og:description" content="Compétences CRM & marketing — Salesforce, Batch, Contentsquare">
+  <meta property="og:image" content="https://i.imgur.com/KPg9WNb.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://i.imgur.com/KPg9WNb.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" role="navigation" aria-label="Navigation principale">
+    <a href="index.html" class="navbar-logo" aria-label="Zoé Bouton — Accueil">ZB</a>
+    <ul class="navbar-links">
+      <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+      <li><a href="experiences.html" data-i18n="nav_exp">Expériences</a></li>
+      <li><a href="competences.html" data-i18n="nav_skills">Compétences</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="cv-zoe-bouton-fr.pdf" download="cv-zoe-bouton-fr.pdf" class="btn-secondary" data-i18n="nav_cv" data-cv>CV ↓</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch to English">🇬🇧 EN</button>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu" role="menu">
+    <a href="index.html" data-i18n="nav_home" role="menuitem">Accueil</a>
+    <a href="experiences.html" data-i18n="nav_exp" role="menuitem">Expériences</a>
+    <a href="competences.html" data-i18n="nav_skills" role="menuitem">Compétences</a>
+    <a href="contact.html" data-i18n="nav_contact" role="menuitem">Contact</a>
+    <a href="cv-zoe-bouton-fr.pdf" download="cv-zoe-bouton-fr.pdf" data-i18n="nav_cv" role="menuitem" data-cv>CV ↓</a>
+  </div>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <section style="background: var(--bg-mint); padding: 4rem 2rem 3rem; text-align: center;">
+    <h1 class="section-title fade-in-up" data-i18n="section_skills">Compétences</h1>
+    <p class="fade-in-up" style="max-width:600px; margin: 1rem auto 0;" data-i18n="skills_intro">Des outils maîtrisés sur le terrain, des compétences construites projet après projet.</p>
+  </section>
+
+  <!-- ========== HARD SKILLS ========== -->
+  <section class="hard-skills-section" aria-labelledby="hard-skills-heading">
+    <div class="container" style="max-width: 900px;">
+      <div class="section-header fade-in-up">
+        <h2 id="hard-skills-heading" class="section-title" data-i18n="hardskills_title">Hard Skills</h2>
+      </div>
+
+      <div class="skills-group fade-in-up">
+        <div class="skills-group-label" data-i18n="group_marketing_crm">Marketing <span class="ampersand">&amp;</span> CRM</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Salesforce</span>
+          <span class="skill-pill">Batch</span>
+          <span class="skill-pill">Dartagnan</span>
+          <span class="skill-pill">HubSpot</span>
+          <span class="skill-pill">Zendesk</span>
+        </div>
+      </div>
+
+      <div class="skills-group fade-in-up">
+        <div class="skills-group-label" data-i18n="group_data">Data <span class="ampersand">&amp;</span> Analytics</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Excel</span>
+          <span class="skill-pill">Contentsquare ✓</span>
+          <span class="skill-pill">SAP BI</span>
+        </div>
+      </div>
+
+      <div class="skills-group fade-in-up">
+        <div class="skills-group-label" data-i18n="group_ai">IA <span class="ampersand">&amp;</span> Outils génératifs</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Claude ✓</span>
+          <span class="skill-pill">Claude Code</span>
+          <span class="skill-pill">OpenAI</span>
+          <span class="skill-pill">Gemini</span>
+          <span class="skill-pill">Google AI</span>
+          <span class="skill-pill">Flow</span>
+          <span class="skill-pill">Stitch</span>
+        </div>
+      </div>
+
+      <div class="skills-group fade-in-up">
+        <div class="skills-group-label" data-i18n="group_collab">Collaboration <span class="ampersand">&amp;</span> Productivité</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Slack</span>
+          <span class="skill-pill">Teams</span>
+          <span class="skill-pill">Notion</span>
+        </div>
+      </div>
+
+      <div class="skills-group fade-in-up">
+        <div class="skills-group-label" data-i18n="group_design">Bureautique <span class="ampersand">&amp;</span> Design</div>
+        <div class="skill-pills">
+          <span class="skill-pill">PowerPoint</span>
+          <span class="skill-pill">Word</span>
+          <span class="skill-pill">Canva</span>
+        </div>
+      </div>
+
+      <div class="skills-group fade-in-up">
+        <div class="skills-group-label" data-i18n="certif_title">Certifications ✓</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Udemy · Claude for Marketing ✓</span>
+          <span class="skill-pill">Contentsquare University · Experience Analytics Web Fundamentals ✓</span>
+          <span class="skill-pill">DataScientest · Data Analysis — TechAway ✓</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SOFT SKILLS ========== -->
+  <section class="soft-skills-section" aria-labelledby="soft-skills-heading">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 id="soft-skills-heading" class="section-title">Soft Skills</h2>
+      </div>
+      <div class="soft-grid">
+
+        <div class="soft-card fade-in-up">
+          <div class="soft-card-header">
+            <span class="soft-icon">⚡</span>
+            <h3 data-i18n="soft1_title">Proactivité</h3>
+          </div>
+          <p data-i18n="soft1_text">J'anticipe. Je propose. Je n'attends pas qu'on me le demande.</p>
+        </div>
+
+        <div class="soft-card fade-in-up">
+          <div class="soft-card-header">
+            <span class="soft-icon">🔍</span>
+            <h3 data-i18n="soft2_title">Rigueur</h3>
+          </div>
+          <p data-i18n="soft2_text">Rien ne part sans relecture. Rien n'est laissé au hasard.</p>
+        </div>
+
+        <div class="soft-card fade-in-up">
+          <div class="soft-card-header">
+            <span class="soft-icon">🤝</span>
+            <h3 data-i18n="soft3_title">Esprit d'équipe</h3>
+          </div>
+          <p data-i18n="soft3_text">À l'aise en coordination multi-équipes : marketing, tech, créa.</p>
+        </div>
+
+        <div class="soft-card fade-in-up">
+          <div class="soft-card-header">
+            <span class="soft-icon">🌀</span>
+            <h3 data-i18n="soft4_title">Adaptabilité</h3>
+          </div>
+          <p data-i18n="soft4_text">Nouveau contexte, nouvelle équipe, nouvel outil. Je m'adapte.</p>
+        </div>
+
+        <div class="soft-card fade-in-up">
+          <div class="soft-card-header">
+            <span class="soft-icon">💡</span>
+            <h3 data-i18n="soft5_title">Force de proposition</h3>
+          </div>
+          <p data-i18n="soft5_text">Je viens avec des solutions, pas des problèmes.</p>
+        </div>
+
+        <div class="soft-card fade-in-up">
+          <div class="soft-card-header">
+            <span class="soft-icon">✨</span>
+            <h3 data-i18n="soft6_title">Curiosité</h3>
+          </div>
+          <p data-i18n="soft6_text">Curieuse par nature : outils, tendances, IA. J'apprends en continu.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CENTRES D'INTÉRÊT ========== -->
+  <section class="interests-section" aria-labelledby="interests-heading">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 id="interests-heading" class="section-title" data-i18n="interests_title">Centres d'intérêt</h2>
+      </div>
+      <div class="interests-pills fade-in-up">
+        <span class="interest-pill">🏊 Natation compétition · 10 ans</span>
+        <span class="interest-pill">🛟 BNSSA · 4 ans</span>
+        <span class="interest-pill">🎸 Guitare · 2 ans</span>
+        <span class="interest-pill">✈️ Norvège</span>
+        <span class="interest-pill">✈️ Allemagne</span>
+        <span class="interest-pill">✈️ Malaisie</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section style="background: var(--bg-mint); padding: 3rem 2rem; display: flex; align-items: center; justify-content: center;">
+    <div class="fade-in-up">
+      <a href="contact.html" class="btn-secondary" data-i18n="cta_contact">Me contacter →</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer role="contentinfo">
+    <div class="avatar-wrap">
+      <img
+        src="https://i.imgur.com/KPg9WNb.png"
+        alt="Zoé Bouton — side profile, small"
+        class="avatar-circle avatar-sm"
+
+        loading="lazy"
+        onerror="this.style.background='#F5C4B0';this.alt='';this.src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';"
+      >
+    </div>
+    <p class="footer-name" data-i18n="footer_name">Zoé Bouton · Paris · 2026</p>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/zoe-bouton/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Zoé Bouton">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        LinkedIn
+      </a>
+      <a href="mailto:zoe.bouton@gmail.com" aria-label="Envoyer un email à Zoé Bouton">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+        Email
+      </a>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
