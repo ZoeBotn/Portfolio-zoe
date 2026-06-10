@@ -402,6 +402,11 @@ p {
   margin-top: 0.5rem;
 }
 
+/* Avatar inline (mobile hero only) — hidden by default, shown in mobile media query */
+.hero-avatar-inline {
+  display: none;
+}
+
 /* Avatar */
 .avatar-wrap {
   position: relative;
@@ -1413,4 +1418,105 @@ footer {
 
 .page-404 p {
   max-width: 400px;
+}
+
+/* ============================================================
+   MOBILE ONLY — adjustments (max 767px)
+   ============================================================ */
+@media (max-width: 767px) {
+  body {
+    font-size: 1rem;
+  }
+
+  /* Reduce body text size (paragraphs, descriptions, etc.) */
+  p,
+  .profile-text p,
+  .section-header p,
+  .pillar-desc,
+  .exp-role,
+  .exp-meta,
+  .timeline-card-body p,
+  .lang-note,
+  .interest-pill {
+    font-size: 0.9rem;
+  }
+
+  /* Tighten vertical spacing between sections */
+  section {
+    padding: 3rem 1.5rem;
+  }
+
+  /* Reduce gap inside "qui suis-je" block */
+  .profile-grid {
+    gap: 1.5rem;
+  }
+
+  /* Tighten stats section top spacing */
+  .stats-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  /* ── HERO MOBILE : avatar intégré à côté du nom ── */
+
+  /* Hero becomes a single column, no split */
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  /* hero-left takes full width and arranges name+avatar in a row at the top */
+  .hero-left {
+    padding: 2.5rem 1.5rem 2rem;
+    gap: 1rem;
+  }
+
+  /* Name row: avatar on the right, text stack on the left */
+  .hero-name-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .hero-name-row .hero-name {
+    font-size: clamp(2.2rem, 10vw, 3rem);
+    line-height: 1.05;
+    flex: 1;
+  }
+
+  /* Small avatar inside hero-left, mobile only */
+  .hero-avatar-inline {
+    display: block;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--coral);
+    flex-shrink: 0;
+  }
+
+  /* Keep both CTA buttons on one line */
+  .hero-ctas {
+    flex-wrap: nowrap;
+  }
+
+  .hero-ctas .btn-primary,
+  .hero-ctas .btn-secondary {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 0.625rem 0.75rem;
+    font-size: 0.82rem;
+  }
+
+  /* Hide the separate hero-right section (white block with big avatar) */
+  .hero-right {
+    display: none;
+  }
+
+  /* Reduce ticker text size */
+  .ticker-content {
+    font-size: 0.78rem;
+  }
 }

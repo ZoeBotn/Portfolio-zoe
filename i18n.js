@@ -10,7 +10,7 @@ const translations = {
     // Hero
     hero_tag:         'CRM Project Leader',
     hero_tagline:     'Votre prochaine recrue marketing ? Spoiler : c\'est moi.',
-    hero_status:      'Disponible · CDI · Graduate Programme · VIE',
+    hero_status:      'Disponible · CDI · Graduate Program · VIE',
     hero_location:    '📍 Paris, France',
     hero_cta_contact: 'Me contacter',
     hero_cta_cv:      'Télécharger mon CV',
@@ -28,7 +28,7 @@ const translations = {
     stat1_label:  'campagnes automatisées',
     stat2_number: '3',
     stat2_label:  'pays d\'immersion',
-    stat3_number: '2 ans',
+    stat3_number: '3 ans',
     stat3_label:  'd\'expérience pro cumulée',
 
     // Pillars
@@ -182,7 +182,7 @@ const translations = {
     // Hero
     hero_tag:         'CRM Project Leader',
     hero_tagline:     'Your next marketing hire? Spoiler: it\'s me.',
-    hero_status:      'Open to · Full-time · Graduate Programme · VIE',
+    hero_status:      'Open to · Full-time · Graduate Program · VIE',
     hero_location:    '📍 Paris, France',
     hero_cta_contact: 'Get in touch',
     hero_cta_cv:      'Download my Resume',
@@ -200,7 +200,7 @@ const translations = {
     stat1_label:  'automated campaigns',
     stat2_number: '3',
     stat2_label:  'countries lived in',
-    stat3_number: '2 yrs',
+    stat3_number: '3 yrs',
     stat3_label:  'of cumulative work experience',
 
     // Pillars
